@@ -50,9 +50,7 @@
             Terminal,
             Wifi,
             Cpu,
-            MessageSquare,
-            Zap,
-            Code2
+            MessageSquare
         } from 'lucide-react';
 
         // --- FIREBASE CONFIGURATION ---
@@ -261,18 +259,10 @@
                             <span>NET_LOBBY</span>
                         </div>
                         <div className="flex-1 overflow-y-auto p-4 space-y-4">
-                            <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Active Channels</div>
+                            <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Chat Room</div>
                             <button className="flex w-full items-center gap-3 rounded-lg bg-emerald-500/10 px-3 py-2 text-sm text-emerald-400 border border-emerald-500/20">
                                 <MessageSquare className="h-4 w-4" />
                                 <span>#general</span>
-                            </button>
-                            <button className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-400 hover:bg-slate-800 transition-colors">
-                                <Code2 className="h-4 w-4" />
-                                <span>#development</span>
-                            </button>
-                            <button className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-400 hover:bg-slate-800 transition-colors">
-                                <Zap className="h-4 w-4" />
-                                <span>#random</span>
                             </button>
                         </div>
 
